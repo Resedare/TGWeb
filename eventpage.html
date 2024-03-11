@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="css/eventpage.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="bot-container">
+      <div class="header">
+        <div class="container my-4">
+          <div class="header-items pt-1 d-flex justify-content-between">
+            <button class="back-icon border border-0 bg-transparent">
+              <img src="img/IconArrowLeft.svg" alt="" />
+            </button>
+            <h3 class="fs-5 fw-bold text-center mt-3 align-self-end">
+              Конкурс от Владимирских ведомостей!
+            </h3>
+            <button class="edit-icon border border-0 bg-transparent">
+              <img src="img/IconEdit.svg" alt="" />
+            </button>
+          </div>
+
+          <img
+            src="img/backgroundimage.jpg"
+            class="header-image"
+            alt="Закат над дорогой"
+          />
+        </div>
+      </div>
+      <section class="info-event">
+        <div class="container my-4">
+          <p>
+            <span class="info-event__color">Активен до 15 марта 12:00</span>
+          </p>
+          <div class="info-event__items mb-2">
+            <div
+              class="info-event__item d-flex align-items-center text-center mb-1"
+            >
+              <img class="me-1" src="img/IconUsers.svg" alt="" />
+              <p>234 участника</p>
+            </div>
+            <div
+              class="info-event__item d-flex align-items-center text-center mb-1"
+            >
+              <img class="me-1" src="img/IconPresent.svg" alt="" />
+              <p>3 призовых места</p>
+            </div>
+            <div
+              class="info-event__item d-flex align-items-center text-center mb-1"
+            >
+              <img class="me-1" src="img/IconUser.svg" alt="" />
+              <p>
+                Организатор <a class="text-decoration-none" href="#">@ghjk</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="bot-interaction d-flex justify-content-between py-2">
+            <button
+              class="btn btn-primary btn-block d-flex align-items-center justify-content-around fw-medium"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill="currentColor"
+                class="bi bi-pause-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M5.5 3.5A1.5 1.5 0 0 1 7 5v6a1.5 1.5 0 0 1-3 0V5a1.5 1.5 0 0 1 1.5-1.5m5 0A1.5 1.5 0 0 1 12 5v6a1.5 1.5 0 0 1-3 0V5a1.5 1.5 0 0 1 1.5-1.5"
+                />
+              </svg>
+              Приостановить
+            </button>
+            <button
+              class="btn btn-primary btn-block d-flex align-items-center justify-content-around fw-medium"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill="currentColor"
+                class="share-icon bi bi-reply-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M5.921 11.9 1.353 8.62a.72.72 0 0 1 0-1.238L5.921 4.1A.716.716 0 0 1 7 4.719V6c1.5 0 6 0 7 8-2.5-4.5-7-4-7-4v1.281c0 .56-.606.898-1.079.62z"
+                /></svg
+              >Поделиться
+            </button>
+          </div>
+          <div class="bot-footer text-center">
+            <button class="btn btn-danger btn-block">Завершить</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="bot-prize-conditions">
+        <div class="container">
+          <h6 class="text-start mb-3">
+            Приз: прямой эфир в редакции газеты "Владимирские ведомости"!
+          </h6>
+          <div class="bot-conditions">
+            <p class="fw-bold">Условия участия:</p>
+            <ol>
+              <li>Подписаться на канал</li>
+              <li>Вступить в группу</li>
+              <li>Задание от организатора</li>
+            </ol>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

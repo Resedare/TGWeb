@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap");
+
+.bot-container {
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 390px;
+  margin: 50px auto;
+}
+
+.header-items button {
+  max-height: 30px;
+}
+.header h3 {
+  padding: 0;
+  margin-bottom: 0;
+
+  font-family: "Onest", sans-serif;
+  color: #1f2937;
+}
+
+.header-image {
+  width: 100%;
+}
+
+.info-event__color {
+  font-family: "Onest", sans-serif;
+  color: #6b7280;
+}
+.info-event__item {
+  font-family: "Onest", sans-serif;
+  color: #374151;
+}
+
+.info-event__item p {
+  margin: 0;
+}
+
+.info-event__item a {
+  color: #60a5fa;
+}
+
+.bot-interaction button {
+  min-height: 50px;
+  width: 50%;
+  margin-right: 7px;
+
+  font-family: "Onest", sans-serif;
+  font-size: 18px;
+  color: #1d4ed8;
+
+  background-color: #1461fa3b;
+  border: none;
+  border-radius: 13px;
+}
+
+.share-icon {
+  transform: scaleX(-1);
+}
+
+.bot-interaction button:last-child {
+  margin-right: 0;
+}
+.bot-footer button {
+  width: 100%;
+
+  font-family: "Onest", sans-serif;
+  color: white;
+
+  background-color: #eb8686;
+  border: none;
+  border-radius: 13px;
+}
+
+.bot-conditions p {
+  margin: 0;
+}
+
+.bot-prize-conditions {
+  font-family: "Onest", sans-serif;
+  color: #1f2937;
+}
