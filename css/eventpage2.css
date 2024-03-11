@@ -38,37 +38,6 @@
   color: #60a5fa;
 }
 
-.bot-interaction button {
-  min-height: 50px;
-  width: 50%;
-  margin-right: 7px;
-
-  font-family: "Onest", sans-serif;
-  font-size: 18px;
-  color: #1d4ed8;
-
-  background-color: #1461fa3b;
-  border: none;
-  border-radius: 13px;
-}
-
-.share-icon {
-  transform: scaleX(-1);
-}
-
-.bot-interaction button:last-child {
-  margin-right: 0;
-}
-.bot-footer button {
-  width: 100%;
-
-  font-family: "Onest", sans-serif;
-  color: white;
-
-  background-color: #eb8686;
-  border-radius: 13px;
-}
-
 .bot-conditions p {
   margin: 0;
 }
@@ -76,4 +45,27 @@
 .bot-prize-conditions {
   font-family: "Onest", sans-serif;
   color: #1f2937;
+  background-color: #f1f5f9;
+}
+.bot-conditions__item a {
+  color: #60a5fa;
+}
+.bot-conditions ol li button {
+  height: 35px;
+  min-width: 120px;
+
+  font-family: "Onest", sans-serif;
+  font-size: 14px;
+  color: #1d4ed8;
+
+  background-color: #1461fa48;
+  border-radius: 13px;
+}
+
+.alert-box {
+  border-left: 2px solid #1d4ed8; /* синяя линия слева */
+}
+
+.alert-box p {
+  max-width: 300px;
 }

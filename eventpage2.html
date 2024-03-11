@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Bootstrap demo</title>
-    <link rel="stylesheet" href="css/eventpage.css" />
+    <link rel="stylesheet" href="css/eventpage2.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -20,7 +20,7 @@
   </head>
 
   <body>
-    <div class="bot-container">
+    <html class="bot-container">
       <div class="header">
         <div class="container my-4">
           <div class="header-items pt-1 d-flex justify-content-between mb-2">
@@ -31,7 +31,7 @@
               Конкурс от Владимирских ведомостей!
             </h3>
             <button class="edit-icon border border-0 bg-transparent">
-              <img src="img/IconEdit.svg" alt="" />
+              <img src="img/IconShareTransparent.svg" alt="" />
             </button>
           </div>
 
@@ -45,7 +45,9 @@
       <section class="info-event">
         <div class="container my-4">
           <p>
-            <span class="info-event__color">Активен до 15 марта 12:00</span>
+            <span class="info-event__color"
+              >Сроки проведения: с 31 марта по 22 апреля</span
+            >
           </p>
           <div class="info-event__items mb-2">
             <div
@@ -69,48 +71,9 @@
               </p>
             </div>
           </div>
-
-          <div class="bot-interaction d-flex justify-content-between py-2">
-            <button
-              class="btn btn-primary btn-block d-flex align-items-center justify-content-around fw-medium"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                fill="currentColor"
-                class="bi bi-pause-fill"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  d="M5.5 3.5A1.5 1.5 0 0 1 7 5v6a1.5 1.5 0 0 1-3 0V5a1.5 1.5 0 0 1 1.5-1.5m5 0A1.5 1.5 0 0 1 12 5v6a1.5 1.5 0 0 1-3 0V5a1.5 1.5 0 0 1 1.5-1.5"
-                />
-              </svg>
-              Приостановить
-            </button>
-            <button
-              class="btn btn-primary btn-block d-flex align-items-center justify-content-around fw-medium"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                fill="currentColor"
-                class="share-icon bi bi-reply-fill"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  d="M5.921 11.9 1.353 8.62a.72.72 0 0 1 0-1.238L5.921 4.1A.716.716 0 0 1 7 4.719V6c1.5 0 6 0 7 8-2.5-4.5-7-4-7-4v1.281c0 .56-.606.898-1.079.62z"
-                /></svg
-              >Поделиться
-            </button>
-          </div>
-          <div class="bot-footer text-center">
-            <button class="btn btn-danger btn-block border-0">Завершить</button>
-          </div>
         </div>
       </section>
-      <section class="bot-prize-conditions">
+      <section class="bot-prize-conditions pt-3">
         <div class="container">
           <h6 class="text-start mb-3">
             Приз: прямой эфир в редакции газеты "Владимирские ведомости"!
@@ -118,13 +81,61 @@
           <div class="bot-conditions">
             <p class="fw-bold">Условия участия:</p>
             <ol>
-              <li>Подписаться на канал</li>
-              <li>Вступить в группу</li>
-              <li>Задание от организатора</li>
+              <li>
+                <div
+                  class="bot-conditions__item d-flex align-items-center mb-1"
+                >
+                  <p>
+                    Подписаться на канал
+                    <a class="text-decoration-none" href="#">@chanel_name</a>
+                  </p>
+                  <button
+                    class="btn btn-primary btn-block d-flex align-items-center justify-content-around fw-medium border-0"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-check2"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"
+                      /></svg
+                    >Выполнено!
+                  </button>
+                </div>
+              </li>
+              <li>
+                <div
+                  class="bot-conditions__item d-flex align-items-center mb-1"
+                >
+                  <p>
+                    Вступить в группу
+                    <a class="text-decoration-none" href="#">@yfpdfybtuheggs</a>
+                  </p>
+                  <button
+                    class="btn btn-primary btn-block d-flex align-items-center justify-content-around fw-medium border-0"
+                  >
+                    Проверить
+                  </button>
+                </div>
+              </li>
+              <li>
+                <div
+                  class="bot-conditions__item d-flex align-items-center mb-1"
+                >
+                  <p>Задание от организатора</p>
+                </div>
+              </li>
             </ol>
+            <div class="alert-box bg-white p-2 rounded">
+              <p>Вы выиграли! Обратитесь к организатору по поводу приза.</p>
+            </div>
           </div>
         </div>
       </section>
-    </div>
+    </html>
   </body>
 </html>
