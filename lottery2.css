@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap");
+
+.bot-container {
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 390px;
+    margin: auto;
+
+    font-family: "Onest", sans-serif;
+}
+
+.header h3 {
+    padding: 0;
+    margin-bottom: 0;
+
+    color: #1f2937;
+}
+
+.header-image {
+    width: 100%;
+}
+
+.info-event__color {
+    color: #9CA3AF;
+}
+
+.info-event__item {
+    color: #374151;
+}
+
+.info-event__item p {
+    margin: 0;
+}
+
+.info-event__item a {
+    color: #60a5fa;
+}
+
+.bot-conditions p {
+    margin: 0;
+}
+
+.bot-prize-conditions {
+    color: #1f2937;
+    background-color: #f1f5f9;
+}
+
+.bot-conditions__item a {
+    color: #60a5fa;
+}
+
+.bot-conditions ol li button {
+    height: 35px;
+    min-width: 120px;
+
+    font-size: 14px;
+    color: #1d4ed8;
+
+    background-color: #1461fa48;
+    border-radius: 13px;
+}
+
+.lottery-item {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: #D9D9D9;
+}
+
+.lottery-block .info-event__color {
+    font-size: 14px;
+}
+
+.start-lottery button {
+    border-radius: 30px;
+    width: 260px;
+    height: 50px;
+}
+
+.start-lottery button:disabled {
+    border: none;
+    background-color: #D9D9D9;
+    color: black;
+}

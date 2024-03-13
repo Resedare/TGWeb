@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lottery1</title>
+    <link rel="stylesheet" href="lottery.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="bot-container">
+        <div class="header">
+            <div class="container">
+                <div class="header-items pt-1 d-flex justify-content-between mb-2">
+                    <button class="back-icon border border-0 bg-transparent">
+                        <img src="img/IconArrowLeft.svg" alt="" />
+                    </button>
+                    <h3 class="fs-5 fw-bold text-center mt-4">
+                        Конкурс от Владимирских ведомостей!
+                    </h3>
+                    <button class="edit-icon border border-0 bg-transparent">
+                        <img src="img/IconShareTransparent.svg" alt="" />
+                    </button>
+                </div>
+
+                <img src="img/backgroundimage.jpg" class="header-image" alt="Закат над дорогой" />
+            </div>
+        </div>
+        <section class="info-event">
+            <div class="container my-4">
+                <p>
+                    <span class="info-event__color">Сроки проведения: с 31 марта по 22 апреля</span>
+                </p>
+                <div class="info-event__items mb-2">
+                    <div class="info-event__item d-flex align-items-center text-center mb-1">
+                        <img class="me-1" src="img/IconUsers.svg" alt="" />
+                        <p>234 участника</p>
+                    </div>
+                    <div class="info-event__item d-flex align-items-center text-center mb-1">
+                        <img class="me-1" src="img/IconPresent.svg" alt="" />
+                        <p>3 призовых места</p>
+                    </div>
+                    <div class="info-event__item d-flex align-items-center text-center mb-1">
+                        <img class="me-1" src="img/IconUser.svg" alt="" />
+                        <p>
+                            Организатор <a class="text-decoration-none" href="#">@ghjk</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bot-prize-conditions pt-3 pb-1">
+            <div class="container">
+                <h6 class="text-start mb-3">
+                    Приз: прямой эфир в редакции газеты "Владимирские ведомости"!
+                </h6>
+                <div class="bot-conditions">
+                    <p class="fw-bold">Условия участия:</p>
+                    <ol>
+                        <li>
+                            <div class="bot-conditions__item d-flex align-items-center mb-1">
+                                <p>
+                                    Подписаться на канал
+                                    <a class="text-decoration-none" href="#">@chanel_name</a>
+                                </p>
+                                <button
+                                    class="btn btn-primary btn-block d-flex align-items-center justify-content-around fw-medium border-0">
+                                    Проверить
+                                </button>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="bot-conditions__item d-flex align-items-center mb-1">
+                                <p>Сыграть в лотерею</p>
+                            </div>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+        <section class="lottery-block py-3">
+            <div class="container">
+                <div class="text-content text-center">
+                    <h5>Мгновенная лотерея</h5>
+                    <p class="info-event__color">У вас 3 попытки</p>
+                </div>
+                <div class="lottery-items d-flex justify-content-center mb-2">
+                    <div class="lottery-item me-2"></div>
+                    <div class="lottery-item me-2"></div>
+                    <div class="lottery-item"></div>
+                </div>
+            </div>
+            <div class="start-lottery text-center mt-3">
+                <button class="btn btn-primary fs-6 fw-medium mb-2" disabled>Запустить лотерею</button>
+                <p class="info-event__color">Для участия в лотерее выполните все указанные условия!</p>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>

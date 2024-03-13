@@ -23,8 +23,9 @@
 
 .info-event__color {
   font-family: "Onest", sans-serif;
-  color: #6b7280;
+  color: #9CA3AF;
 }
+
 .info-event__item {
   font-family: "Onest", sans-serif;
   color: #374151;
@@ -59,6 +60,7 @@
 .bot-interaction button:last-child {
   margin-right: 0;
 }
+
 .bot-footer button {
   width: 100%;
 
