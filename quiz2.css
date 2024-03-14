@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap");
+
+.bot-container {
+    background: #f1f5f9;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 390px;
+    margin: auto;
+    font-family: "Onest", sans-serif;
+}
+
+.back-icon {
+    max-height: 30px;
+    margin-top: 30px;
+}
+
+.header h3 {
+    color: #1f2937;
+}
+
+.quiz-gray__color {
+    color: gray;
+    font-size: 14px;
+}
+
+.quiz {
+    min-height: calc(100vh - 120px);
+}
+
+.quiz textarea {
+    resize: none;
+}
+
+.quiz textarea::placeholder {
+    color: #9CA3AF;
+}
+
+.fixed-bottom-bar {
+    background-color: #f1f5f9;
+    width: 390px;
+    border-radius: 10px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: fixed;
+    z-index: 100;
+    padding: 6px 20px;
+}
+
+.fixed-bottom-bar button {
+    height: 46px;
+    min-width: 340px;
+    border-radius: 10px;
+}
