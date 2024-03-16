@@ -168,3 +168,30 @@ body {
 .question12 {
     margin-left: 0px;
 }
+
+.file-upload {
+    border: 2px;
+    border-radius: 5px;
+    padding-top: 10px;
+    width: 100%;
+    cursor: pointer;
+    background-color: #f8f9fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.file-upload-icon {
+    width: 50px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.bg-grey {
+    background-color: #e9ecef;
+}
+
+.d-none {
+    display: none;
+}
