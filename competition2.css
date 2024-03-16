@@ -6,7 +6,7 @@ body {
     height: 100%;
 }
 
-.container {
+.bot-container {
     max-width: 390px;
     margin: auto;
     background-color: #FFFFFF;
