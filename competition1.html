@@ -1,37 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Competition1</title>
+  <title>Создание конкурса</title>
   <link rel="stylesheet" href="competition1.css" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 </head>
 
 <body>
   <div class="bot-container">
-    <div class="bot-header d-flex justify-content-between align-items-center px-3">
-      <button class="btn btn-link text-dark">&lt;</button>
-      <div class="text-center">
-        <span class="header-title d-block">Создание конкурса</span>
-      </div>
-      <button class="btn btn-link text-dark">Отмена</button>
+    <div class="header py-3 text-center d-flex">
+      <button class="back-icon border border-0 bg-transparent">
+        <img src="img/IconArrowLeft.svg" alt="" />
+      </button>
+      <span class="header-title">Создание конкурса</span>
     </div>
     <div class="step-indicator pt-2 text-center">
-      <span class="d-block font-weight-bold">Основное</span>
-      Шаг 1 из 3
+      <span>Основное</span>
+      <p class="step1">Шаг 1 из 3</p>
     </div>
     <div class="bot-content">
       <form>
         <div class="form-group">
-          <label for="contestName">Название</label>
-          <input type="text" class="form-control" id="contestName" placeholder="Введите название конкурса" />
+          <label class="text-grey" for="contestName">Название</label>
+          <input type="text" class="form-control border-0" id="contestName" placeholder="Введите название конкурса" />
         </div>
-        <div class="form-group">
-          <label>Тип конкурса</label>
+        <div class="card-line"></div>
+        <div class="form-group mt-3">
+          <label class="text-grey">Тип конкурса</label>
           <div class="form-check">
             <input class="form-check-input" type="radio" name="contestType" id="prizeDraw" checked />
             <label class="form-check-label" for="prizeDraw">
@@ -45,8 +43,8 @@
             </label>
           </div>
         </div>
-        <div class="form-group">
-          <label>Вид призов</label>
+        <div class="form-group mt-4">
+          <label class="text-grey">Вид призов</label>
           <div class="form-check">
             <input class="form-check-input" type="radio" name="prizeType" id="organizerPrize" checked />
             <label class="form-check-label" for="organizerPrize">
@@ -61,20 +59,20 @@
           </div>
         </div>
         <div class="form-group">
-          <label for="prizeAmount">Количество призов</label>
-          <input type="number" class="form-control" id="prizeAmount" placeholder="Введите кол-во от 1 до 100" />
+          <label class="text-grey" for="prizeAmount">Количество призов</label>
+          <input type="number" class="bgcolor" id="prizeAmount" placeholder="Введите кол-во от 1 до 100" />
         </div>
         <div class="form-row">
           <div class="col">
-            <label for="date">Дата розыгрыша</label>
-            <input type="date" class="form-control" id="date" />
+            <label class="text-grey" for="date">Дата розыгрыша</label>
+            <input type="date" class="bgcolor" id="date" />
           </div>
           <div class="col">
-            <label for="time">Время розыгрыша</label>
-            <input type="time" class="form-control" id="time" />
+            <label class="text-grey" for="time">Время розыгрыша</label>
+            <input type="time" class="bgcolor" id="time" />
           </div>
         </div>
-        <div class="form-group form-check">
+        <div class="form-check mt-3">
           <input type="checkbox" class="form-check-input" id="privateContest" />
           <label class="form-check-label" for="privateContest">Приватный конкурс</label>
         </div>
@@ -82,13 +80,13 @@
           Доступ по ссылке. Поделитесь с подписчиками, ссылка станет доступна
           после публикации конкурса.
         </div>
-        <div class="form-group">
-          <button type="button" class="btn btn-primary btn-lg btn-block mb-2">
-            Далее <i class="fas fa-chevron-right"></i>
-          </button>
-          <button type="button" class="btn btn-secondary btn-lg btn-block mb-2">
-            Сохранить в черновики
-          </button>
+        <div class="button-group d-flex flex-column mb-2">
+          <button class="btn btn-outline-primary mb-4">Далее<svg xmlns="http://www.w3.org/2000/svg" width="20"
+              height="24" fill="currentColor" class="bi bi-arrow-right arr-right" viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+            </svg></button>
+          <button class="btn mb-2 save-button">Сохранить в черновики</button>
           <button type="button" class="btn btn-success btn-lg btn-block">
             Опубликовать
           </button>

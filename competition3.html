@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Создание конкурса</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="competition2.css" />
+</head>
+
+<body>
+
+    <div class="bot-container">
+        <div class="header py-3 text-center d-flex">
+            <button class="back-icon border border-0 bg-transparent">
+                <img src="img/IconArrowLeft.svg" alt="" />
+            </button>
+            <span class="header-title ">Создание конкурса</span>
+        </div>
+        <div class="step-indicator pt-2 text-center">
+            <span>Детали</span>
+            <p>Шаг 3 из 3</p>
+        </div>
+        <div class="form-section">
+            <div class="mb-3">
+                <div class="form-group ">
+                    <div class="d-flex justify-content-between">
+                        <label for="question1" class="question11">Вопрос 1</label>
+                        <a class="btn text-primary p-0">Удалить</a>
+                    </div>
+                    <input type="text" class="form-control formcontrolplace" id="question1"
+                        placeholder="Задайте вопрос">
+                </div>
+                <div class="form-group">
+                    <label for="answerOptions1" class="question11">Варианты ответа</label>
+                    <textarea class="form-control" id="answerOptions1" rows="3"
+                        placeholder="Введите возможные варианты правильного ответа по одному с новой строки"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="answerOptions1" class="question11">Варианты ответа</label>
+                    <textarea class="form-control" id="answerOptions1" rows="3"
+                        placeholder="Введите возможные варианты правильного ответа по одному с новой строки"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="answerOptions1" class="question11">Варианты ответа</label>
+                    <textarea class="form-control" id="answerOptions1" rows="3"
+                        placeholder="Введите возможные варианты правильного ответа по одному с новой строки"></textarea>
+                </div>
+            </div>
+            <div class="form-group ">
+                <div class="d-flex justify-content-between">
+                    <label for="question1" class="question11">ID контактного лица</label>
+                    <a class="btn text-primary p-0 question12">Как найти?</a>
+                </div>
+                <input type="text" class="form-control formcontrolplace" id="question1" placeholder="Задайте вопрос">
+            </div>
+            <div class="button-group d-flex flex-column mb-2">
+                <button class="btn btn-outline-primary mb-2 maxwidth"><img src="img/IconArrowLeft.svg"
+                        alt="" />Назад</button>
+                <button class="btn mb-2 save-button">Сохранить в черновики</button>
+                <button class="btn btn-primary btn-public"><svg xmlns="http://www.w3.org/2000/svg" width="20"
+                        height="24" fill="currentColor" class="bi bi-arrow-right arr-left" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                    </svg>Опубликовать</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

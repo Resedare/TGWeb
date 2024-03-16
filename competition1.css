@@ -2,6 +2,15 @@
 
 body {
   background-color: #f5f5f5;
+  font-family: "Onest", sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-size: 15px;
+}
+
+.step1 {
+  font-size: 13px;
 }
 
 .bot-container {
@@ -16,6 +25,11 @@ body {
 .bot-header {
   background-color: #f1f5f9;
   padding: 10px 20px;
+}
+
+.header {
+  background-color: #f1f5f9;
+  border-bottom: 1px solid #dee2e6;
 }
 
 .btn-back,
@@ -42,7 +56,6 @@ body {
 label {
   display: block;
   margin-bottom: 5px;
-  font-weight: bold;
   color: #333;
 }
 
@@ -53,7 +66,7 @@ input[type="time"],
 select.form-control {
   width: 100%;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 10px;
   padding: 10px;
   margin-bottom: 10px;
 }
@@ -96,4 +109,53 @@ select.form-control {
 
 .header-title {
   font-weight: bold;
+  font-size: 15px;
+  margin: 0 auto;
+  padding-top: 3px;
+  padding-right: 30px;
+  text-align: center;
+}
+
+.border-down {
+  border-bottom: solid 1px black;
+}
+
+.card-line {
+  margin: 10px auto;
+  height: 1px;
+  width: 100%;
+  background-color: #E2E8F0;
+}
+
+.text-grey {
+  color: #6c757d;
+}
+
+.bgcolor {
+  background-color: #F8FAFC;
+}
+
+.btn {
+  width: 100%;
+  position: relative;
+  padding: 10px;
+  font-size: 14px;
+  color: #1D4ED8;
+  border-radius: 20px;
+}
+
+.btn svg {
+  position: absolute;
+  right: 10px;
+}
+
+.save-button {
+  background-color: #1461fa48;
+  border-color: #FFFFFF;
+  border-radius: 10px;
+}
+
+.button-group button {
+  width: 100%;
+  margin-bottom: 10px;
 }
