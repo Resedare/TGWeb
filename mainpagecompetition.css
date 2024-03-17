@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap");
+
+.bot-container {
+    background: #f1f5f9;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    overflow: hidden;
+    max-width: 390px;
+    font-family: "Onest", sans-serif;
+
+    position: relative;
+}
+
+.choose-buttons__user {
+    padding: 5px;
+    background-color: #E2E8F0;
+    border-radius: 10px;
+}
+
+.info-event__color {
+    color: #9CA3AF;
+}
+
+.btn-choose,
+.btn-footer {
+    width: 50%;
+}
+
+.btn.btn-choose:hover {
+    background-color: white;
+}
+
+.error-container {
+    background-image: url('img/errorspace.png');
+    min-height: calc(100vh - 120px);
+    background-repeat: no-repeat;
+
+}
+
+.error-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.error-icon {
+    margin: 100px auto 0;
+}
+
+.error-text {
+    color: #A8A29E;
+    margin: 10px auto;
+    max-width: 150px
+}
+
+.btn-footer:nth-child(1) {
+    color: #3B82F6;
+}
+
+.btn-footer:nth-child(2) {
+    color: #A8A29E;
+}
+
+.borderbot {
+    box-shadow: inset 2px 0 0 0 #3B82F6;
+    border-radius: 5px 0 5px 5px;
+}
+
+.pre-event-message {
+    background-color: transparent;
+    color: #000000;
+    padding: 0;
+    margin-bottom: 16px;
+}
+
+.fixed-bottom-bar {
+    background-color: transparent;
+    padding: 0;
+    border-radius: 10px;
+    box-shadow: none;
+}
+
+.fixed-bottom-bar button {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.fixed-bottom-bar button {
+    height: 56px;
+    min-width: 340px;
+    border-radius: 10px;
+}
+
+.bottom-container {
+    background-color: #ffffff;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 390px;
+    z-index: 100;
+}
